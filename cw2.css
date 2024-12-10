@@ -70,8 +70,6 @@ body {
     flex-direction: column;
     background-color: #2B303A;
     align-items: center;
-    padding: 18px;
-
   }
 
   .real-view h1 {
@@ -102,21 +100,20 @@ body {
   }
 
   .textbox {
-    
-    flex:80%;
+    display: flex;
+    flex:50vw;
     align-items: center;
 
   }
 
   .images1 {
-    flex:8%;
-    display:flex;
-    height: 200px;
+    flex:8vw;
+    height: 100px;
     width: 400px;
   }
 
   .images2 {
-    flex:15%;
+    flex:15vw;
     display:flex;
     height: 200px;
     width: 400px;
@@ -140,19 +137,24 @@ a.button {
 
 
   .button-wrapper{
-    flex: 65%;
+    flex: 6vw;
     align-items: baseline;
   }
 
   .button-container{
+    width: 100vw;
     margin-top: 13vh;
     margin-bottom: 3vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    padding: 0 10px; /* Add 10px padding on left and right */
+
   }
 
   .button-container button {
+    flex:1;
     font-family: adv;
     margin: 10px;
     padding: 10px 20px;
@@ -162,6 +164,7 @@ a.button {
     color: white;
     cursor: pointer;
     font-size: 16px;
+
   }
   
   .button-container button:hover {
@@ -191,6 +194,7 @@ a.button {
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
+    opacity: 80%;
     padding: 0 18px;
     width: 80%;
     font-family: 'Courier New', Courier, monospace;
