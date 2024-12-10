@@ -122,6 +122,21 @@ body {
     width: 400px;
   }
 
+a.button {
+    font-family: adv;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #005f73;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a.button:hover {
+    background-color: #004a58;
+  }
 
 
   .button-wrapper{
