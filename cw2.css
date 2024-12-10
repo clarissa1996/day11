@@ -143,6 +143,7 @@ a.button {
   }
 
   .button-container{
+    margin-top: 5vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -201,6 +202,6 @@ a.button {
     background-color: #719572;
     background-color: #3c4d59;
     max-height: 0;
-    overflow: hidden;
+    overflow: scroll;
     transition: max-height 0.2s ease-out;
   }
