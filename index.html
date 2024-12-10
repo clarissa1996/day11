@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>day11</title>
+  <link rel="icon" href="F_J.png">
+  <link rel="stylesheet" href="cw2.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Initial View -->
+    <div id="initial-view" class="view">
+      <button id="unravel-button" class="unravel-button">open</button>
+    </div>
+
+    <!-- Real Page -->
+    <div class="real-view" id="real-view" class="view hidden">
+      <h1>Day II</h1>
+      <div class="wrapper">
+        <div class="images1" style="width:100px;";>
+          <div class="subimages">
+            <img src="FP.png" alt="FP" style="height:100%; background-color:transparent;">
+          </div>
+        </div>
+        <div class="textbox">
+          <div class="mo">
+            <p></p>
+            <p></p>
+            <p>Hello mo :)</p>
+            <p>ich habe hier eine Kleinigkeit für dich. Ich hoffe du wirst damit genauso viel Spaß haben wie in deiner Erinnerung. </p>
+    
+            <p>I'll always try to catch what you love. -d</p>
+          </div>
+        </div>
+        <div class="images2">
+          <div class="subimages">
+            <img src="F_J.png" alt="Fin_Jake" style="height:100%; background-color:transparent;">
+          </div>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button onclick="downloadFile('cardwars-obsidian-edition-2024-androidSDK23.apk')">Download Part One</button>
+        <button onclick="downloadFile('main.92.com.turner.cardwars.obb')">Download Part Two</button>
+      </div>
+
+      
+
+
+
+      <button class="accordion">read me</button>
+        <div class="panel">
+          <p style="color: #000">Installation instructions:</p>
+          <ol>
+            <li>Install app (with ADB or just manually putting the apk file in your device and installing it)</li>
+            <li>Try to open the app so the path to "Android/obb/com.turner.cardwars" gets generated (empty)</li>
+            <li>Close the app and put the obb file (main.92.com.turner.cardwars.obb) in "Android/obb/com.turner.cardwars"</li>
+            <li>Open the app again. It should ask your age and then crash.</li>
+            <li>Card wars should now be operational</li>
+          </ol>
+        </div>
+    </div>
+  </div>
+
+  <script src="cw.js"></script>
+</body>
+</html>
