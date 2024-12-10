@@ -28,7 +28,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,7 +196,7 @@ a.button {
   .panel {
     opacity: 80%;
     padding: 0 18px;
-    width: 80%;
+    width: 90%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     background-color: #719572;
